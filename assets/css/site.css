@@ -2,11 +2,25 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #000000;
+  --muted-text: #444;
+  --tab-bg: #f2f2f2;
+  --tab-border: #e0e0e0;
+  --tab-text: #000000;
+  --link: #0645ad;
 }
 
 [data-theme="dark"] {
   --bg-color: #121212;
   --text-color: #e0e0e0;
+  --muted-text: #bbbbbb;
+  --tab-bg: #1e1e1e;
+  --tab-border: #2a2a2a;
+  --tab-text: #e0e0e0;
+  --link: #8ab4f8;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
@@ -17,37 +31,56 @@ body {
   line-height: 1.55;
   margin: 1.5rem;
 }
-header h1 {
-  margin: 0 0 .25rem 0;
-}
 
-/* Navigation bar */
-nav {
-  display: flex;
-  align-items: center;
-}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
 
-nav .nav-links {
-  flex-grow: 1;
-}
+.container { max-width: 850px; margin: 0 auto; }
 
-nav a {
+/* Masthead: centered name + centered social links */
+.masthead { text-align: center; margin-bottom: 0.75rem; }
+.masthead h1 { font-size: 1.9rem; margin: 0.25rem 0 0.35rem 0; font-weight: 600; }
+.masthead .social { font-size: 0.95rem; color: var(--muted-text); }
+.masthead .social a { color: var(--text-color); opacity: 0.8; }
+.masthead .social a:hover { opacity: 1; text-decoration: underline; }
+.masthead .sep { margin: 0 0.35rem; color: var(--muted-text); }
+
+/* A thin rule between header block and tabs, like Watrous */
+.hr { height: 1px; background: var(--tab-border); border: 0; margin: 0.75rem 0 0.9rem; }
+
+/* Tabs row: centered, boxed + greyed links */
+.tabs { text-align: center; margin-bottom: 1.25rem; }
+.tabs a {
+  display: inline-block;
+  padding: 0.35rem 0.6rem;
+  margin: 0 0.2rem;
+  background: var(--tab-bg);
+  color: var(--tab-text);
+  border: 1px solid var(--tab-border);
+  border-radius: 6px;
   text-decoration: none;
-  margin-right: 0.25rem;
+  font-size: 0.95rem;
 }
+.tabs a:hover { filter: brightness(0.97); }
 
-.container {
-  max-width: 850px;
-}
+/* Page sections */
+header { margin-bottom: 0.5rem; }
+main { margin-top: 0.25rem; }
+hr { margin: 1rem 0; border: 0; height: 1px; background: var(--tab-border); }
 
-hr {
-  margin: 1rem 0;
-}
-
-/* Toggle button */
+/* Fixed theme toggle (bottom-right), like the ☀️ seen on the page */
 #theme-toggle {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--tab-border);
+  background: var(--tab-bg);
+  color: var(--text-color);
+  border-radius: 999px;
   cursor: pointer;
-  border: none;
-  background: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1;
 }
+#theme-toggle:hover { filter: brightness(0.97); }
