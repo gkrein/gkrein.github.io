@@ -13,7 +13,7 @@ My research interests include quantum chromodynamics (QCD), confinement, dynamic
 This site mirrors the simple layout you see above: **Books and courses**, **Research papers**, and **Other writing**. You’ll find links to lecture notes, selected publications, and occasional essays.
 
 **Contact:**  
-- Email: *your.email@institution.br*  
+- Email: *gastao.krein@unesp.br*  
 - GitHub: [gkrein](https://github.com/gkrein)  
 - Google Scholar: *add your Scholar link here*  
 - LinkedIn / Bluesky: *add links if you’d like*
