@@ -8,16 +8,18 @@
 </head>
 <body>
   <header>
-  <h1>{{ site.title }}</h1>
-  <nav>
-    <a href="/index.html">About</a> /
-    <a href="/books-and-courses.html">Books and courses</a> /
-    <a href="/research-papers.html">Research papers</a> /
-    <a href="/other-writing.html">Other writing</a>
-    <button id="theme-toggle">🌙</button>
-  </nav>
-  <hr>
-</header>
+    <h1>{{ site.title }}</h1>
+    <nav style="display: flex; align-items: center; gap: 0.5rem;">
+      <div style="flex-grow: 1;">
+        <a href="/index.html">About</a> /
+        <a href="/books-and-courses.html">Books and courses</a> /
+        <a href="/research-papers.html">Research papers</a> /
+        <a href="/other-writing.html">Other writing</a>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+    <hr>
+  </header>
 
   <main class="container">
     {{ content }}
@@ -27,27 +29,28 @@
     <hr>
     <p>© {{ "now" | date: "%Y" }} {{ site.title }}</p>
   </footer>
-<script>
-  const toggle = document.getElementById('theme-toggle');
-  const body = document.body;
 
-  // Load saved theme from localStorage
-  if (localStorage.getItem('theme') === 'dark') {
-    body.setAttribute('data-theme', 'dark');
-    toggle.textContent = '☀️';
-  }
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
 
-  toggle.addEventListener('click', () => {
-    if (body.getAttribute('data-theme') === 'dark') {
-      body.removeAttribute('data-theme');
-      toggle.textContent = '🌙';
-      localStorage.setItem('theme', 'light');
-    } else {
+    // Load saved theme from localStorage
+    if (localStorage.getItem('theme') === 'dark') {
       body.setAttribute('data-theme', 'dark');
       toggle.textContent = '☀️';
-      localStorage.setItem('theme', 'dark');
     }
-  });
-</script>
+
+    toggle.addEventListener('click', () => {
+      if (body.getAttribute('data-theme') === 'dark') {
+        body.removeAttribute('data-theme');
+        toggle.textContent = '🌙';
+        localStorage.setItem('theme', 'light');
+      } else {
+        body.setAttribute('data-theme', 'dark');
+        toggle.textContent = '☀️';
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  </script>
 </body>
 </html>
