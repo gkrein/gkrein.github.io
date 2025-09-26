@@ -1,4 +1,4 @@
-//* Light and dark themes */
+/* Light and dark themes */
 :root {
   --bg-color: #ffffff;
   --text-color: #000000;
@@ -21,8 +21,19 @@ header h1 {
   margin: 0 0 .25rem 0;
 }
 
+/* Navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-links {
+  flex-grow: 1;
+}
+
 nav a {
   text-decoration: none;
+  margin-right: 0.25rem;
 }
 
 .container {
@@ -39,5 +50,4 @@ hr {
   border: none;
   background: none;
   font-size: 1.2rem;
-  margin-left: 1rem;
 }
