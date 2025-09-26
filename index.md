@@ -5,7 +5,7 @@ title: About
 
 # About
 
-<img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 220px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
+<img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 150px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
 
 Welcome! I’m **Gastão Krein**, a theoretical physicist at IFT–UNESP (São Paulo, Brazil).  
 My research interests include quantum chromodynamics (QCD), confinement, dynamical chiral symmetry breaking, and related nonperturbative phenomena. I also teach courses on quantum information and computation.
