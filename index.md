@@ -15,7 +15,7 @@ This site mirrors the simple layout you see above: **Books and courses**, **Rese
 **Contact:**  
 - Email: *gastao.krein@unesp.br*  
 - GitHub: [gkrein](https://github.com/gkrein)  
-- Google Scholar: https://scholar.google.com/citations?user=Hq9qIggAAAAJ&hl=en 
+- Google Scholar:  
 - LinkedIn / Bluesky: *add links if you’d like*
 
 ---
