@@ -1,1 +1,5 @@
-
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.55; margin: 1.5rem; }
+header h1 { margin: 0 0 .25rem 0; }
+nav a { text-decoration: none; }
+.container { max-width: 850px; }
+hr { margin: 1rem 0; }
