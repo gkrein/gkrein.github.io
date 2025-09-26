@@ -7,50 +7,73 @@
   <link href="/assets/css/site.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <div class="nav-links">
-        <a href="/index.html">About</a> /
-        <a href="/books-and-courses.html">Books and courses</a> /
-        <a href="/research-papers.html">Research papers</a> /
-        <a href="/other-writing.html">Other writing</a>
+  <header class="container">
+    <!-- Centered name -->
+    <div class="masthead">
+      <h1>{{ site.title }}</h1>
+      <!-- Centered social links (edit hrefs to your profiles) -->
+      <div class="social">
+        <a href="https://bsky.app/profile/USERNAME.bsky.social" rel="me">Bluesky</a>
+        <span class="sep">/</span>
+        <a href="https://github.com/gkrein" rel="me">GitHub</a>
+        <span class="sep">/</span>
+        <a href="https://www.linkedin.com/in/USERNAME" rel="me">LinkedIn</a>
+        <span class="sep">/</span>
+        <a href="https://scholar.google.com/citations?user=YOUR_ID" rel="me">Scholar</a>
       </div>
-      <button id="theme-toggle">🌙</button>
+    </div>
+
+    <!-- Thin rule between social line and tabs -->
+    <div class="hr"></div>
+
+    <!-- Centered boxed/greyed tabs -->
+    <nav class="tabs">
+      <a href="/index.html">About</a>
+      <a href="/books-and-courses.html">Books and courses</a>
+      <a href="/research-papers.html">Research papers</a>
+      <a href="/other-writing.html">Other writing</a>
     </nav>
-    <hr>
   </header>
 
   <main class="container">
     {{ content }}
   </main>
 
-  <footer>
+  <footer class="container">
     <hr>
     <p>© {{ "now" | date: "%Y" }} {{ site.title }}</p>
   </footer>
 
+  <!-- Fixed theme toggle (bottom-right) -->
+  <button id="theme-toggle" title="Toggle theme">🌙</button>
+
   <script>
-    const toggle = document.getElementById('theme-toggle');
-    const body = document.body;
+    (function () {
+      const toggle = document.getElementById('theme-toggle');
+      const body = document.body;
 
-    // Load saved theme from localStorage
-    if (localStorage.getItem('theme') === 'dark') {
-      body.setAttribute('data-theme', 'dark');
-      toggle.textContent = '☀️';
-    }
+      // Apply saved theme ASAP
+      try {
+        if (localStorage.getItem('theme') === 'dark') {
+          body.setAttribute('data-theme', 'dark');
+          toggle.textContent = '☀️';
+        }
+      } catch (e) {}
 
-    toggle.addEventListener('click', () => {
-      if (body.getAttribute('data-theme') === 'dark') {
-        body.removeAttribute('data-theme');
-        toggle.textContent = '🌙';
-        localStorage.setItem('theme', 'light');
-      } else {
-        body.setAttribute('data-theme', 'dark');
-        toggle.textContent = '☀️';
-        localStorage.setItem('theme', 'dark');
-      }
-    });
+      toggle.addEventListener('click', () => {
+        const dark = body.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          body.removeAttribute('data-theme');
+          toggle.textContent = '🌙';
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        } else {
+          body.setAttribute('data-theme', 'dark');
+          toggle.textContent = '☀️';
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        }
+      });
+    })();
   </script>
 </body>
 </html>
+
