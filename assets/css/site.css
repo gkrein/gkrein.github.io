@@ -19,6 +19,50 @@
   --link: #8ab4f8;
 }
 
+/* Thin 100 */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Thin.woff2') format('woff2'),
+       url('/assets/fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Light (self-hosted) */
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Light.woff2") format("woff2"),
+       url("/assets/fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular 400 */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Regular.woff2') format('woff2'),
+       url('/assets/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium 500 */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto-Medium.woff2') format('woff2'),
+       url('/assets/fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
 html, body {
   height: 100%;
 }
