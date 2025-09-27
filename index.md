@@ -17,7 +17,7 @@ My research is in theoretical studies of the strong interaction, with quantum ch
 
 To know more about my research, click on the **Research** link. If you are interested, click on **Publications** to access my recent publications. 
 
-My teaching includes graduate courses at IFT and outreach lectures, some of which are listed in the **Teaching** section
+My teaching includes graduate courses at IFT and outreach lectures, some of which are listed in the **Teaching** section.
 
 --- 
 **Contact:**  
