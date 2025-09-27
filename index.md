@@ -5,7 +5,7 @@ title: About
 
 # About
 
-<img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 150px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
+<img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 140px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
 
 Welcome! I’m a Research Professor at the Institute of Theoretical Physics (IFT) of the State University of São Paulo (UNESP). 
 
@@ -15,7 +15,7 @@ My teaching includes regular courses of the IFT graduate program and outreach le
 
 
 
-To know more about my research and teaching activities, see above: **Researc**, **Publications**, and **Teaching**. 
+To know more about my research and teaching activities, see above: **Research**, **Publications**, and **Teaching**. 
 
 **Contact:**  
 - Email: *gastao.krein@unesp.br*
