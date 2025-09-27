@@ -13,6 +13,10 @@ My research interests are in the area of the strong interactions described by qu
 
 My teaching includes regular courses of the IFT graduate program and outreach lectures.
 
+I obtained my Doctoral degree in Physics from the Federal University of Rio Grande do Sul.
+
+Before joining the IFT, I was a Full Professor at the Federal University of Santa Maria. 
+
 To know more about my research , please see above: **Research** and **Publications**. 
 
 **Contact:**  
@@ -23,9 +27,6 @@ To know more about my research , please see above: **Research** and **Publicatio
 ---
 
 ## Short bio (optional)
-I obtained my Doctoral degree in Physics from the Federal University of Rio Grande do Sul.
-
-Before joining the IFT, I was a Full Professor at the Federal University of Santa Maria. 
 
 <! ## News (optional)
 - 2025-09: Gave an invited talk on center vortices and gluon mass generation.  
