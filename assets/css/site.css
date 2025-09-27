@@ -39,7 +39,7 @@ a:hover { text-decoration: underline; }
 
 /* Masthead: centered name + centered social links */
 .masthead { text-align: center; margin-bottom: 0.75rem; }
-.masthead h1 { font-family: Tahoma, Helvetica, Georgia, serif; font-size: 3.0rem; margin-top: 5rem; margin-bottom: 0.5rem; font-weight: 600; }
+.masthead h1 { font-family: Helvetica, serif; font-size: 2.0rem; margin-top: 3.5rem; margin-bottom: 0.5rem; font-weight: 600; }
 .masthead .social { font-size: 0.95rem; color: var(--muted-text); }
 .masthead .social a { color: var(--text-color); opacity: 0.8; }
 .masthead .social a:hover { opacity: 1; text-decoration: underline; }
