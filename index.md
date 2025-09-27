@@ -23,6 +23,3 @@ My teaching includes graduate courses at IFT and outreach lectures, some of whic
 **Contact:**  
 - Email: *gastao.krein@unesp.br*
 - Office phone: +55(11)3393-8323
-- GitHub: [gkrein](https://github.com/gkrein)  
-
-
