@@ -25,4 +25,4 @@ My teaching includes graduate courses at IFT and outreach lectures, some of whic
 - Office phone: +55(11)3393-8323
 - GitHub: [gkrein](https://github.com/gkrein)  
 
----
+
