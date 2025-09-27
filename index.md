@@ -9,8 +9,7 @@ title: About
 
 I’m a Research Professor at the Institute of Theoretical Physics (IFT) of the State University of São Paulo (UNESP). 
 
-My research interests are in the area of the strong interactions described by quantum chromodynamics (QCD). Specific topics of interests include quark-gluon confinement, dynamical mass generation, hadron structure and interactions, finite-temperature and high-density matter, and other related nonperturbative phenomena. More recently, I have been interested in quantum information and computation applications in nuclear and particle physics. 
-
+My research lies in theoretical studies of the strong interaction, which is described by the fundamental theory of quantum chromodynamics (QCD). I focus on nonperturbative aspects of QCD, including quark–gluon confinement, dynamical mass generation, hadron structure and interactions, and the behavior of strongly interacting matter at finite temperature and high density. More recently, I have also become interested in exploring applications of quantum information and computation in nuclear and particle physics.
 My teaching includes regular courses of the IFT graduate program and outreach lectures.
 
 I obtained my Doctoral degree in Physics from the Federal University of Rio Grande do Sul.
