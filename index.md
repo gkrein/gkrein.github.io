@@ -7,20 +7,13 @@ title: About
 
 <img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 130px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
 
-**Contact:**  
-- Email: *gastao.krein@unesp.br*
-- Office phone: +55(11)3393-8323
-- GitHub: [gkrein](https://github.com/gkrein)  
-
-
 I’m a Research Professor at the Institute of Theoretical Physics (IFT) of the State University of São Paulo (UNESP). 
 
 My research interests are in the area of the strong interactions described by quantum chromodynamics (QCD). Specific topics of interests include quark-gluon confinement, dynamical mass generation, hadron structure and interactions, finite-temperature and high-density matter, and other related nonperturbative phenomena. More recently, I have been interested in quantum information and computation applications in nuclear and particle physics. 
 
 My teaching includes regular courses of the IFT graduate program and outreach lectures.
 
-
-To know more about my research and teaching activities, see above: **Research**, **Publications**, and **Teaching**. 
+To know more about my research , please see above: **Research** and **Publications**. 
 
 **Contact:**  
 - Email: *gastao.krein@unesp.br*
@@ -34,7 +27,7 @@ I obtained my Doctoral degree in Physics from the Federal University of Rio Gran
 
 Before joining the IFT, I was a Full Professor at the Federal University of Santa Maria. 
 
-## News (optional)
+<! ## News (optional)
 - 2025-09: Gave an invited talk on center vortices and gluon mass generation.  
 - 2025-06: New course materials for “Introduction to Quantum Information and Computation.”
 
@@ -42,3 +35,4 @@ Before joining the IFT, I was a Full Professor at the Federal University of Sant
 <img src="/assets/images/me.jpg" alt="Photo of Gastão Krein" style="display:block; margin:0 auto 1rem; max-width: 260px; border-radius: 6px;">
 and remove "float: left" so the text doesn’t wrap.
 -->
+--->
