@@ -26,14 +26,14 @@ To know more about my research , please see above: **Research** and **Publicatio
 
 ---
 
-## Short bio (optional)
+<! -- ## Short bio (optional) -->
 
-<! ## News (optional)
+<! -- ## News (optional)
 - 2025-09: Gave an invited talk on center vortices and gluon mass generation.  
 - 2025-06: New course materials for “Introduction to Quantum Information and Computation.”
-
+-->
+  
 <!-- If you prefer the photo centered above the text, replace the <img> above with:
 <img src="/assets/images/me.jpg" alt="Photo of Gastão Krein" style="display:block; margin:0 auto 1rem; max-width: 260px; border-radius: 6px;">
 and remove "float: left" so the text doesn’t wrap.
 -->
---->
