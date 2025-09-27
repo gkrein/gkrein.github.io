@@ -7,21 +7,25 @@ title: About
 
 <img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 150px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
 
-Welcome! I’m **Gastão Krein**, a theoretical physicist at IFT–UNESP (São Paulo, Brazil).  
+Welcome! I’m a Research Professor at the Institute of Theoretical Physics (IFT) of the State University of São Paulo (UNESP). My research interests include quantum chromodynamics (QCD), confinement, dynamical chiral symmetry breaking, and related nonperturbative phenomena. 
+
+My teaching includes regular courses of the IFT graduate program and outreach lectures.
+
 My research interests include quantum chromodynamics (QCD), confinement, dynamical chiral symmetry breaking, and related nonperturbative phenomena. I also teach courses on quantum information and computation.
 
-This site mirrors the simple layout you see above: **Books and courses**, **Research papers**, and **Other writing**. You’ll find links to lecture notes, selected publications, and occasional essays.
+To know more about my research and teaching activities, see above: **Researc**, **Publications**, and **Teaching**. 
 
 **Contact:**  
-- Email: *gastao.krein@unesp.br*  
+- Email: *gastao.krein@unesp.br*
+- Office phone: +55(11)3393-8323
 - GitHub: [gkrein](https://github.com/gkrein)  
-- Google Scholar:  
-- LinkedIn / Bluesky: *add links if you’d like*
 
 ---
 
 ## Short bio (optional)
-Add a 3–5 sentence bio here: education, current position, main research themes, and recent collaborations or projects.
+I obtained my Doctoral degree in Physics from the Federal University of Rio Grande do Sul.
+
+Before joining the IFT, I was a Full Professor at the Federal University of Santa Maria. 
 
 ## News (optional)
 - 2025-09: Gave an invited talk on center vortices and gluon mass generation.  
