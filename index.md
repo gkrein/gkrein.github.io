@@ -7,11 +7,11 @@ title: About
 
 <img src="/assets/images/gkrein.jpg" alt="Photo of Gastão Krein" style="max-width: 150px; float: left; margin: 0 1rem 1rem 0; border-radius: 6px;">
 
-Welcome! I’m a Research Professor at the Institute of Theoretical Physics (IFT) of the State University of São Paulo (UNESP). My research interests include quantum chromodynamics (QCD), confinement, dynamical chiral symmetry breaking, and related nonperturbative phenomena. 
+Welcome! I’m a Research Professor at the Institute of Theoretical Physics (IFT) of the State University of São Paulo (UNESP). My research interests are in the area of the strong interaction described by quantum chromodynamics (QCD). Specific topics of interests include quark-gluon confinement, dynamical quark and gluon mass generation, hadron structure and interactions, finite-temperature and high-density matter, and other related nonperturbative phenomena. More recently, I have been interesting in quantum information and computation applications in nuclear and particle physics. 
 
 My teaching includes regular courses of the IFT graduate program and outreach lectures.
 
-My research interests include quantum chromodynamics (QCD), confinement, dynamical chiral symmetry breaking, and related nonperturbative phenomena. I also teach courses on quantum information and computation.
+
 
 To know more about my research and teaching activities, see above: **Researc**, **Publications**, and **Teaching**. 
 
