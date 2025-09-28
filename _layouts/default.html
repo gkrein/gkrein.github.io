@@ -28,10 +28,10 @@
 
     <!-- Centered boxed/greyed tabs -->
     <nav class="tabs">
-  <a href="/index.html">About</a>
-  <a href="/research">Research</a>
-  <a href="/publications">Publications</a>
-  <a href="/teaching">Teaching</a>
+  <a href="/index.html" class="{% if page.title == 'About' %}active{% endif %}">About</a>
+  <a href="/research" class="{% if page.title == 'Research' %}active{% endif %}">Research</a>
+  <a href="/publications" class="{% if page.title == 'Publications' %}active{% endif %}">Publications</a>
+  <a href="/teaching" class="{% if page.title == 'Teaching' %}active{% endif %}">Teaching</a>
 </nav>
   </header>
   
