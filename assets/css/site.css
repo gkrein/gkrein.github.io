@@ -115,6 +115,20 @@ a:hover { text-decoration: underline; }
   box-shadow: inset 0 0 0 9999px rgba(255,255,255,0.05);
 }
 
+/* jekyll-scholar output */
+.bibliography {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bibliography li {
+  margin-bottom: 0.9rem;
+}
+
+.bibliography .title {
+  font-weight: 600;
+}
+
 /* Page sections */
 header { margin-bottom: 0.5rem; }
 main { margin-top: 0.25rem; }
