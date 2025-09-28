@@ -5,68 +5,9 @@ title: Publications
 
 # Publications
 
-Here is a selection of my research papers, grouped by year.  
-For a complete list, see my [Google Scholar](https://scholar.google.com/citations?user=Hq9qIggAAAAJ&hl=en).
+For a complete list, see my
+[Google Scholar](https://scholar.google.com/citations?user=Hq9qIggAAAAJ&hl=en).
 
----
+{% bibliography --group_by year --group_order descending %}
 
-## 2025
-<ul class="publications">
 
-<li>
-<strong>The Quark Structure of the Nucleon and Moat Regimes in Nuclear Matter</strong>  
-<em>with Theo Motta</em>  
-<span class="pub-links">
-  [DOI](https://doi.org/10.48550/arXiv.2508.09287)
-</span>
-</li>
-
-<li>
-<strong>Parton distribution and fragmentation functions with massive gluons</strong>  
-<em>with Gustavo B. Bopsin, Bruno El-Bennich, Fernando E. Serna, Roberto C. da Silveira</em>  
-<span class="pub-links">
-  [DOI](https://doi.org/10.48550/arXiv.2507.12544)
-</span>
-</li>
-
-</ul>
-
----
-
-## 2024
-<ul class="publications">
-
-<li>
-<strong>Chiral condensates in strong magnetic fields</strong>  
-<em>with C. Collaborator</em>  
-<span class="pub-links">
-  [arXiv:2406.12345](https://arxiv.org/abs/2406.12345)
-  [Journal Link](https://doi.org/10.xxxx/yyyyy)
-</span>
-</li>
-
-<li>
-<strong>Conference Proceedings on QCD in Extreme Conditions</strong>  
-<em>Proc. XYZ Conference, 2024</em>  
-<span class="pub-links">
-  [PDF](/assets/pdfs/proceedings-2024.pdf)
-</span>
-</li>
-
-</ul>
-
----
-
-## 2023
-<ul class="publications">
-
-<li>
-<strong>Quark confinement and center symmetry</strong>  
-<em>with D. Author, E. Author</em>  
-<span class="pub-links">
-  [arXiv:2305.67890](https://arxiv.org/abs/2305.67890)
-  [DOI](https://doi.org/10.xxxx/zzzzz)
-</span>
-</li>
-
-</ul>
