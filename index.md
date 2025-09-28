@@ -13,7 +13,7 @@ I received my PhD in Physics from the Federal University of Rio Grande do Sul.
 
 Before joining IFT, I was Professor of Physics at the Federal University of Santa Maria.
 
-My research is in theoretical studies of the strong interaction, with quantum chromodynamics (QCD) as its underlying theory. I focus on nonperturbative aspects of QCD, including quark–gluon confinement, dynamical mass generation, hadron structure and interactions, and the behavior of strongly interacting matter at finite temperature and high density. More recently, I have also become interested in exploring applications of quantum information and computation in nuclear and particle physics.
+My research is in theoretical studies of the strong interaction, with quantum chromodynamics (QCD) as its underlying theory. I focus on nonperturbative aspects of QCD, including quark–gluon confinement, dynamical mass generation, hadron structure and interactions, and the properties of strongly interacting matter at finite temperature and high density. More recently, I have also become interested in exploring applications of quantum information and computation in nuclear and particle physics.
 
 To know more about my research, click on the **Research** link. If you are interested, click on **Publications** to access my recent publications. 
 
