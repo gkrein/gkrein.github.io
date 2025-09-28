@@ -22,6 +22,15 @@ For a complete list, see my [Google Scholar](https://scholar.google.com/citation
 </span>
 </li>
 
+<li>
+<strong>The Quark Structure of the Nucleon and Moat Regimes in Nuclear Matter</strong>  
+<em>with Theo Motta</em>  
+<span class="pub-links">
+  [DOI](https://doi.org/10.48550/arXiv.2508.09287)
+  [PDF](https://arxiv.org/pdf/2508.09287)
+</span>
+</li>
+
 </ul>
 
 ---
