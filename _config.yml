@@ -1,4 +1,18 @@
 title: Gastão Krein
 markdown: kramdown
 theme: null
+
+# Control how permalinks are generated
 permalink: /:title
+
+# Enable Jekyll Scholar for bibliography handling
+plugins:
+  - jekyll-scholar
+
+scholar:
+  style: apa                # citation style (can also use ieee, nature, chicago, etc.)
+  locale: en
+  source: ./_bibliography   # folder where your .bib lives
+  bibliography: references.bib
+  sort_by: year,month       # sort entries by year (then month if available)
+  order: descending         # newest publications first
