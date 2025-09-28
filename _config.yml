@@ -10,7 +10,7 @@ plugins:
   - jekyll-scholar
 
 scholar:
-  style: apa                # citation style (can also use ieee, nature, chicago, etc.)
+  style: ieee                # citation style (can also use apa, ieee, nature, chicago, etc.)
   locale: en
   source: ./_bibliography   # folder where your .bib lives
   bibliography: references.bib
