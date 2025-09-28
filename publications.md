@@ -14,12 +14,12 @@ For a complete list, see my [Google Scholar](https://scholar.google.com/citation
 <ul class="publications">
 
 <li>
-<strong>Center-vortex driven gluon mass generation</strong>  
-<em>with A. Collaborator and B. Collaborator</em>  
+<strong>The Quark Structure of the Nucleon and Moat Regimes in Nuclear Matter</strong>  
+<em>with Theo Motta</em>  
 <span class="pub-links">
-  [arXiv:2501.01234](https://arxiv.org/abs/2501.01234)
-  [DOI](https://doi.org/10.xxxx/xxxxx)
-  [PDF](/assets/pdfs/my-paper-2025.pdf)
+  [arXiv: 2508.09287][(https://arxiv.org/abs/2508.09287)]
+  [DOI](https://doi.org/10.48550/arXiv.2508.09287)
+  [PDF](https://arxiv.org/pdf/2508.09287)
 </span>
 </li>
 
