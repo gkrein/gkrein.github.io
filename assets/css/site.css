@@ -19,35 +19,37 @@
   --link: #8ab4f8;
 }
 
-/* Thin 100 */
+/* Roboto 100 Thin */
 @font-face {
-  font-family: 'Roboto';
-  src: url('/assets/fonts/Roboto-Thin.woff2') format('woff2'),
-       url('/assets/fonts/Roboto-Thin.woff') format('woff');
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Thin.woff2") format("woff2"),
+       url("/assets/fonts/Roboto-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
+/* DejaVu Sans ExtraLight 200 */
 @font-face {
-    font-family: 'DejaVu Sans';
-    src: url('DejaVuSans-ExtraLight.woff2') format('woff2'),
-        url('DejaVuSans-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
+  font-family: "DejaVu Sans";
+  src: url("/assets/fonts/DejaVuSans-ExtraLight.woff2") format("woff2"),
+       url("/assets/fonts/DejaVuSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
+/* Roboto 200 ExtraLight (you have these files) */
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-ExtraLight.woff2') format('woff2'),
-        url('Roboto-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-ExtraLight.woff2") format("woff2"),
+       url("/assets/fonts/Roboto-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
-/* Roboto Light (self-hosted) */
+/* Roboto 300 Light */
 @font-face {
   font-family: "Roboto";
   src: url("/assets/fonts/Roboto-Light.woff2") format("woff2"),
@@ -57,21 +59,21 @@
   font-display: swap;
 }
 
-/* Regular 400 */
+/* Roboto 400 Regular */
 @font-face {
-  font-family: 'Roboto';
-  src: url('/assets/fonts/Roboto-Regular.woff2') format('woff2'),
-       url('/assets/fonts/Roboto-Regular.woff') format('woff');
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Regular.woff2") format("woff2"),
+       url("/assets/fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-/* Medium 500 */
+/* Roboto 500 Medium */
 @font-face {
-  font-family: 'Roboto';
-  src: url('/assets/fonts/Roboto-Medium.woff2') format('woff2'),
-       url('/assets/fonts/Roboto-Medium.woff') format('woff');
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto-Medium.woff2") format("woff2"),
+       url("/assets/fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -84,10 +86,11 @@ html, body {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: Roboto, Arial, Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: "Roboto", Arial, Helvetica, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 300; /* Roboto Light */
   line-height: 1.55;
   margin: 1.5rem;
-  font-weight: 300
 }
 
 a { color: var(--link); text-decoration: none; }
@@ -97,8 +100,17 @@ a:hover { text-decoration: underline; }
 
 /* Masthead: centered name + centered social links */
 .masthead { text-align: center; margin-bottom: 0.75rem; }
-.masthead h1 { font-family: Roboto, "DejaVu Sans ExtraLight", "Segoe UI Light", "Segoe UI", "DejaVu Sans", -apple-system, BlinkMacSystemFont, Roboto,
-               Arial, sans-serif; font-size: 3.5rem; margin-top: 3.5rem; margin-bottom: 0.5rem; font-weight: 200; }
+
+/* Choose the weight you prefer for the name: 200 (ExtraLight) or 100 (Thin) */
+.masthead h1 {
+  font-family: "Roboto", "DejaVu Sans", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Arial, sans-serif;
+  font-weight: 200;  /* uses Roboto-ExtraLight or falls back to DejaVuSans-ExtraLight */
+  font-size: 3.5rem;
+  margin-top: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .masthead .social { font-size: 1.10rem; color: var(--muted-text); }
 .masthead .social a { color: var(--text-color); opacity: 0.8; }
 .masthead .social a:hover { opacity: 1; text-decoration: underline; }
@@ -122,14 +134,13 @@ a:hover { text-decoration: underline; }
 }
 .tabs a:hover { filter: brightness(0.97); }
 
-/* 🔹 Add this new rule below */
+/* Active tab highlight */
 .tabs a.active {
   background: var(--tab-bg);
   border-color: var(--muted-text);
   font-weight: 600;
   box-shadow: inset 0 0 0 9999px rgba(0,0,0,0.03);
 }
-
 [data-theme="dark"] .tabs a.active {
   box-shadow: inset 0 0 0 9999px rgba(255,255,255,0.05);
 }
@@ -139,11 +150,9 @@ a:hover { text-decoration: underline; }
   list-style: none;
   padding-left: 0;
 }
-
 .bibliography li {
   margin-bottom: 0.9rem;
 }
-
 .bibliography .title {
   font-weight: 600;
 }
@@ -169,3 +178,4 @@ hr { margin: 1rem 0; border: 0; height: 1px; background: var(--tab-border); }
   line-height: 1;
 }
 #theme-toggle:hover { filter: brightness(0.97); }
+
