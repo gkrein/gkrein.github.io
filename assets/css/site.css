@@ -29,6 +29,24 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('DejaVuSans-ExtraLight.woff2') format('woff2'),
+        url('DejaVuSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ExtraLight.woff2') format('woff2'),
+        url('Roboto-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Roboto Light (self-hosted) */
 @font-face {
   font-family: "Roboto";
