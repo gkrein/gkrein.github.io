@@ -1,22 +1,27 @@
-## Send me a message
+---
+layout: default
+title: Contact
+permalink: /Contact.html
+---
 
-<form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST" class="contact-form">
-  <label>
-    Your name<br>
-    <input type="text" name="name" required>
-  </label><br><br>
+# Contact Me
 
-  <label>
-    Your email<br>
-    <input type="email" name="email" required>
-  </label><br><br>
+You can reach me at:
 
-  <label>
-    Message<br>
-    <textarea name="message" rows="6" required></textarea>
-  </label><br><br>
+<p id="email"></p>
 
-  <button type="submit">Send</button>
-</form>
+<script>
+  // Simple email obfuscation (no bots can scrape easily)
+  const user = "gastao.krein";
+  const domain = "unesp.br";
+  document.getElementById("email").innerHTML =
+    '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
+</script>
 
-<small>You can also reach me at <span class="obf" data-u="gastao.krein" data-d="unesp.br"></span>.</small>
+---
+
+Or via professional networks:
+
+- [Google Scholar](https://scholar.google.com/citations?user=Hq9qIggAAAAJ&hl=en)  
+- [LinkedIn](https://www.linkedin.com/in/USERNAME)  
+- [GitHub](https://github.com/gkrein)  
