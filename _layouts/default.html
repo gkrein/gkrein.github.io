@@ -75,6 +75,40 @@
       });
     })();
   </script>
+
+  <script>
+  // Simple email obfuscation + click-to-copy
+  (function () {
+    function renderObfuscatedEmails() {
+      var nodes = document.querySelectorAll('.obf');
+      nodes.forEach(function (el) {
+        var user = el.getAttribute('data-u') || '';
+        var domain = el.getAttribute('data-d') || '';
+        var addr = user + '@' + domain;
+
+        el.textContent = addr;
+        el.style.cursor = 'pointer';
+        el.title = 'Click to copy';
+
+        el.addEventListener('click', function () {
+          try {
+            navigator.clipboard.writeText(addr);
+            el.textContent = addr + ' (copied!)';
+            setTimeout(function () { el.textContent = addr; }, 1200);
+          } catch (e) {
+            // Fallback: open mailto if clipboard API not available
+            window.location.href = 'mailto:' + addr;
+          }
+        });
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', renderObfuscatedEmails);
+    } else {
+      renderObfuscatedEmails();
+    }
+  })();
+</script>
 </body>
 </html>
 
