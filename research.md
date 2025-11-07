@@ -6,12 +6,12 @@ permalink: /Research.html
 
 # Research
 
-My research focuses on **theoretical physics**, especially in the area of **Quantum Chromodynamics (QCD)**, the theory of the strong interactions. I am particularly interested in understanding:
+My research focuses on **theoretical physics**, especially in the area of **Quantum Chromodynamics (QCD)**, the theory of the strong interactions. I am particularly interested in:
 
-- **Confinement**: how quarks and gluons are permanently bound into hadrons.  
-- **Dynamical chiral symmetry breaking**: the mechanism by which massless quarks acquire effective masses.  
-- **Center vortices and gluon mass generation**: exploring topological configurations of the QCD vacuum.  
-- **Properties of QCD matter** under extreme conditions (high temperature, high density, strong magnetic fields).  
+- **Confinement of quarks and gluons**: understanding the mechanisms responsible for these degrees of freedom to be permanently bound into hadrons.  
+- **Dynamical hadron mass generation**: how the trace anomaly and topopological gluon configurations in the QCD vacuum which massless quarks acquire effective masses.  
+- **Properties of QCD matter**: equilibrium and nonequilibrium properties of matter under extreme conditions (high temperature, high density, strong magnetic fields).
+- **Quantum information science**: 
 
 ---
 
