@@ -6,7 +6,7 @@ permalink: /Research.html
 
 # Research
 
-My research focuses on **theoretical physics**, especially in the area of **Quantum Chromodynamics (QCD)**, the theory of the strong interactions. I am particularly interested in:
+My research focuses on **theoretical physics**, especially in the area of **Quantum Chromodynamics (QCD)**, the theory of the strong interactions. The unifying theme of my work is to connect fundamental QCD mechanisms to observable phenomena in nuclear and particle physics, bridging the gap between lattice results, continuum field-theory methods, and phenomenological models. I am particularly interested in:
 
 - **Confinement of quarks and gluons**: understanding the mechanisms responsible for these degrees of freedom to be permanently bound into hadrons.  
 - **Dynamical mass generation**: how topopological gluon configurations in the QCD vacuum which massless gluon and essentially massless quarks acquire effective masses.  
@@ -16,9 +16,12 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 ---
 
 ## Current projects
-- **Center-vortex framework for gluon mass generation**  
+- **Center-vortex framework for gluon and quark mass generation**  
   Developing continuum approaches to describe gluon propagators and mass generation, supported by lattice QCD results.  
 
+- **Inhomogeneous states of QCD matter**  
+  Seeking an understanding of the formation of inhomogeneous or crystalline phases in QCD matter using different approaches and models.
+  
 - **QCD in strong magnetic fields**  
   Studying the behavior of quark condensates and meson properties in magnetars and heavy-ion collisions.  
 
@@ -28,9 +31,7 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 ---
 
 ## Collaborations
-I frequently collaborate with colleagues in Brazil and abroad on topics ranging from Dyson–Schwinger equations and Bethe–Salpeter kernels to effective field theories for hadronic matter.  
+I frequently collaborate with colleagues in Brazil and abroad on topics ranging from functional methods for computing correlation functions in vacuum and in medium to effective field theories for QCD matter.  
 
 ---
 
-## Perspective
-The unifying theme of my work is to **connect fundamental QCD mechanisms to observable phenomena** in nuclear and particle physics, bridging the gap between lattice results, continuum field-theory methods, and phenomenological models.
