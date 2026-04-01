@@ -20,6 +20,4 @@ You can reach me at:
 
 ---
 
-Or by phone:
-
-+55(11)3393-7823 (Office)
+Or by phone: +55 (11) 3393-7823 (Office)
