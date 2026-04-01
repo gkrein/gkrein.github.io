@@ -16,12 +16,11 @@ You can reach me at:
   const domain = "unesp.br";
   document.getElementById("email").innerHTML =
     '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
-
-//
-Or by phone: +55 (11) 3393-7823 (Office)
 </script>
 
-
+<script>
+By phone: +55 (11) 3393-7823
+</script>
 ---
 
 
