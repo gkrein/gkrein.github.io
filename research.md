@@ -11,7 +11,7 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 - **Confinement of quarks and gluons**: understanding the mechanisms responsible for these degrees of freedom to be permanently bound into hadrons.  
 - **Dynamical mass generation**: how topopological gluon configurations in the QCD vacuum featuring massless gluon and essentially massless quarks lead to hadron masses.  
 - **Properties of QCD matter**: equilibrium and nonequilibrium properties of matter under extreme conditions (high temperature, high density, strong magnetic fields).
-- **Quantum information science**: entanglement in quantum fuled theories with particular interest in QCD, simulation of lattice gauge theories on quantum hardware. 
+- **Quantum information science**: quantum entanglement in quantum field theories with particular interest in QCD, simulation of gauge theories on quantum computers. 
 
 ---
 
@@ -21,7 +21,13 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 
 - **Inhomogeneous states of QCD matter**  
   Seeking an understanding of the formation of inhomogeneous or crystalline phases in QCD matter using different approaches and models.
-  
+
+  - **Functional methods in QED and QCD**  
+  Computing correlation functions using spectral representation; gauge-invariant correlation functions.
+
+  - **Parton distribution functions (PDFs) and frangmentation functions (FFs)**  
+  Using continuum methods to obtain hadron ligh-cone bound-state wave functions to compute PDFs and FF.
+
 - **QCD in strong magnetic fields**  
   Studying the behavior of quark condensates and meson properties in magnetars and heavy-ion collisions.  
 
