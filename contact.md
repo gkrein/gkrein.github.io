@@ -20,8 +20,6 @@ You can reach me at:
 
 ---
 
-Or via professional networks:
+Or by phone:
 
-- [Google Scholar](https://scholar.google.com/citations?user=Hq9qIggAAAAJ&hl=en)  
-- [LinkedIn](https://www.linkedin.com/in/USERNAME)  
-- [GitHub](https://github.com/gkrein)  
++55(11)3393-7823 (Office)
