@@ -34,6 +34,12 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 - **Percolation in dense nuclear matter**  
   Investigating quark delocalization in neutron star matter and possible percolation transitions.  
 
+- **Entanglement in the QCD vacuum**  
+  Quantifying quark-antiquark and quark-gluon entanglement in the chirally broken QCD vacuum.
+
+- **Quantum computing in QCD**
+  Exploring real-time evolution of quark-gluon states using QCD toy models 
+   
 ---
 
 ## Collaborations
