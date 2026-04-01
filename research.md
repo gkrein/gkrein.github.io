@@ -22,10 +22,10 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 - **Inhomogeneous states of QCD matter**  
   Seeking an understanding of the formation of inhomogeneous or crystalline phases in QCD matter using different approaches and models.
 
-  - **Functional methods in QED and QCD**  
+- **Functional methods in QED and QCD**  
   Computing correlation functions using spectral representation; gauge-invariant correlation functions.
 
-  - **Parton distribution functions (PDFs) and frangmentation functions (FFs)**  
+- **Parton distribution functions (PDFs) and frangmentation functions (FFs)**  
   Using continuum methods to obtain hadron ligh-cone bound-state wave functions to compute PDFs and FF.
 
 - **QCD in strong magnetic fields**  
