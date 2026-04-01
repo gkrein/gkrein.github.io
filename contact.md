@@ -18,9 +18,9 @@ You can reach me at:
     '<a href="mailto:' + user + '@' + domain + '">' + user + '@' + domain + '</a>';
 </script>
 
-<script>
+
 By phone: +55 (11) 3393-7823
-</script>
+
 ---
 
 
