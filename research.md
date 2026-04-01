@@ -9,7 +9,7 @@ permalink: /Research.html
 My research focuses on **theoretical physics**, especially in the area of **Quantum Chromodynamics (QCD)**, the theory of the strong interactions. The unifying theme of my work is to connect fundamental QCD mechanisms to observable phenomena in nuclear and particle physics, bridging the gap between lattice results, continuum field-theory methods, and phenomenological models. I am particularly interested in:
 
 - **Confinement of quarks and gluons**: understanding the mechanisms responsible for these degrees of freedom to be permanently bound into hadrons.  
-- **Dynamical mass generation**: how topopological gluon configurations in the QCD vacuum which massless gluon and essentially massless quarks acquire effective masses.  
+- **Dynamical mass generation**: how topopological gluon configurations in the QCD vacuum featuring massless gluon and essentially massless quarks lead to hadron masses.  
 - **Properties of QCD matter**: equilibrium and nonequilibrium properties of matter under extreme conditions (high temperature, high density, strong magnetic fields).
 - **Quantum information science**: entanglement in quantum fuled theories with particular interest in QCD, simulation of lattice gauge theories on quantum hardware. 
 
