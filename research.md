@@ -40,10 +40,6 @@ My research focuses on **theoretical physics**, especially in the area of **Quan
 - **Quantum computing in QCD**  
   QExploring real-time evolution of quark-gluon states using QCD toy models
   
-- **Quantum computing in QCD**
-  Exploring real-time evolution of quark-gluon states using QCD toy models 
-
-
 
 ---
 
