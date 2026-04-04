@@ -4,17 +4,15 @@ title: Teaching
 permalink: /Teaching.html
 ---
 
-## Teaching
+# Teaching
 
-# 2026
-  
-- Introduction to Effective Field Theopries for QCD - https://sites.google.com/view/escampa-2026/
+- Introduction to Effective Field Theories for QCD - https://sites.google.com/view/escampa-2026/
 
-# 2025
+- Introduction to Quantum Information and Computation
 
-- Introduction to Quantum Information and Computation 
+- Introduction to Effective Quantum Field Theories [ https://sites.google.com/view/escampa-2026/](https://professores.ift.unesp.br/congressoPauloLealFerreira/#home.html)
 
-# 2024 
 
 - Statistical Physics
- 
+
+- 
